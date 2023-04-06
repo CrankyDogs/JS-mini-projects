@@ -1,0 +1,63 @@
+.main-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 60%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.del-btn{
+    margin-left: 2rem;
+    padding: 10px 20px;
+    background-color: red;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.del-btn:hover{
+    background-color: palevioletred;
+}
+
+.completed{
+    text-decoration: line-through;
+    /* text-decoration: #3e8e41; */
+    color: #3e8e41;
+}
+
+div .done{
+    color: #3e8e41;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
